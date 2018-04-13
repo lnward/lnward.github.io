@@ -1,0 +1,321 @@
+/*Web type scale*/
+
+
+/*http://type-scale.com/*/
+
+html {
+    font-size: 1em;
+      /*changes font size for whole file*/
+}
+
+body {
+    background-color: #f4e3b1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #033076;
+}
+
+p {
+    color: #033076;
+    margin-bottom: 1.3em;
+    margin-left: -3em;
+    margin-right: -5em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Amiko', bold;
+    margin: 1.414em 0 0.5em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 {background: transparent;
+    margin-top: 0;
+    margin-left: 0em;
+    font-size: 85px;
+}
+
+h2 {
+    font-family: 'Amiko', bold;
+    font-size: 2.369em;
+    color: #033076;
+    font-weight: bolder;
+    padding-top: -2px;
+    margin-left: -2.5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.2em;
+
+}
+
+h3 {
+  font-family: 'Amiko', bold;
+  font-size: 2.369em;
+  color: #033076;
+  font-weight: bolder;
+  padding-top: -10px;
+  margin-left: -2.20em;
+  margin-top: 0.75em;
+  margin-bottom: 0.2em;
+}
+
+h4 {
+  font-family: 'Amiko', bold;
+  font-size: 2.369em;
+  color: #033076;
+  font-weight: bolder;
+  padding-top: -2px;
+  margin-left: -2.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-right: -2em;
+}
+/* link*/
+
+a {
+    color: ##033076;
+}
+
+a:hover {
+    color: #033076;
+    /*    remove the underline*/
+    /*   command + / in brackets */
+    text-decoration: none;
+}
+
+/*button style*/
+
+.btn {
+    font-size: .8em;
+    letter-spacing: .091em;
+    line-height: 1em;
+    /*    round corner*/
+    border-radius: 3em;
+    /*    padding setting in shortcut*/
+    padding: 1.8em 3.6em;
+    /*    text color*/
+    color: ##033076;
+    /*    button color*/
+    background-color: #transparent;
+}
+
+.btn:hover {
+    color: #033076;
+    opacity: 0.5;
+}
+
+.btn-outline-primary {
+    color: #033076;
+    background-color: transparent;
+    border: 1px #033076 solid;
+    /*    fade in effect*/
+    transition: all 1s;
+}
+
+.btn-outline-primary:hover {
+    color: #033076;
+    background-color: #033076;
+}
+
+/*view*/
+
+html,
+body {
+    height: 100%;
+}
+
+/*select class name item, you need start with .*/
+
+.view {
+    text-align: center;
+    /*    change to 100% for a full screen style*/
+    height: 100%;
+    background: url("../img/me2.jpg") top center no-repeat;
+    color: #033076;
+}
+
+/*only select the h1 inside the view area*/
+
+.view h1 {
+    padding-top: 20px;
+    padding-right: 650px;
+}
+
+.me {
+    margin-top: 3em;
+    border: .5em solid lightblue;
+    /*    change square to circle*/
+    border-radius: 100px;
+}
+
+.gray {
+    background-color: lightcyan;
+    /*    set padding for the top and bottom*/
+    padding: 50px 0;
+}
+
+/*PORTFOLIO MODAL CODE*/
+
+.portfolio-link img:hover {
+    opacity: 0.9;
+    -webkit-filter: sepia (75%)
+/*
+    -webkit-filter: grayscale(60%);
+  Safari 6.0 - 9.0 filter: grayscale(60%);
+*/
+}
+
+.portfolio-modal .modal-body {
+    position: static;
+}
+
+.portfolio-modal .modal-dialog {
+    max-width: 60%;
+    max-height: 60%;
+    height: 60%;
+    margin: 50px auto;
+    /*    enable the overflow to set the screen no scrolling*/
+    /*    overflow: hidden;*/
+}
+
+.portfolio-modal .modal-content {
+    /*Change the paragraph font color*/
+    color: #2f2c2c;
+    padding: 0 0 2em 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*Change the background-color*/
+    background-color: rgba(178,177,174,0.8);
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.portfolio-modal .modal-content p {
+    margin: 0px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 2em 0;
+}
+
+.portfolio-modal .modal-header {
+    border-bottom: none;
+}
+
+.portfolio-modal .close {
+    font-size: 2em;
+    padding-right: 1em;
+    font-weight: 200;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.portfolio-modal .bottom {
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/* -- FOOTER -- */
+
+footer {
+    margin-top: 3em;
+    padding: 2em;
+    background-color: #f4e3b1;
+}
+
+
+footer .social {
+    font-size: 2em;
+}
+
+
+footer .info {
+    margin-top: 5em;
+    margin-bottom: 5em
+}
+
+
+#portfolio,
+#about,
+#contact {
+    padding: 1.5em 0;
+}
+
+
+/*navigation*/
+
+
+.navbackground {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,0.5);
+    /*    disable the button border*/
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-brand {
+    color: #033076;
+    padding-top: 0em;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #033076;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #033076;
+    font-size: 1.3em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #033076;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #033076;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #033076;
+}
+
+
+/* The active link, when scroll to the section, the menu items will turn to different color */
+
+.navbar-light a.active {
+    color: #996633 !important;
+    /*    background-color: #55555a !important;*/
+}
+
+.navbar-light .navbar-nav .nav-link.social {
+  font-size: 1.4em;
+  padding-right: -2em;
+}

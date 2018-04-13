@@ -1,0 +1,75 @@
+footer {
+    margin-top: 3em;
+    padding: 3em;
+    background-color: lightcyan;
+}
+
+
+footer .social {
+    font-size: .8em;
+}
+
+
+footer .info {
+    margin-top: 5em;
+    margin-bottom: 5em
+}
+
+
+#portfolio,
+#about,
+#contact {
+    padding: 5em 0;
+}
+
+
+/*navigation*/
+
+nav .social{font-size;
+      2em}
+
+.navbackground {
+    background-color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    /*    disable the button border*/
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    padding-top: 0;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: dodgerblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: dodgerblue;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+
+/* The active link, when scroll to the section, the menu items will turn to different color */
+
+.navbar-light a.active {
+    color: #0287b4 !important;
+    /*    background-color: #55555a !important;*/
+}

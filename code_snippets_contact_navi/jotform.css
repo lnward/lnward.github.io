@@ -1,0 +1,50 @@
+/*Please copy and paste the following CSS in the Jotform.com template CSS panel*/
+
+.supernova .form-all {
+    /*    remove the drop shadow*/
+    box-shadow: none;
+    border: none;
+}
+
+.supernova {
+    background-color: transparent;
+}
+
+
+
+.form-all .form-submit-button {
+    background-color: #0287b4;
+    border-color: transparent !important;
+
+}
+
+.form-all .form-submit-button:hover {
+    background-color: gray;
+    border-color: transparent !important;
+    color: black !important;
+}
+
+
+.form-submit-button-cool_grey_rounded:hover {
+    background: gray !important;
+    color: white !important;
+}
+
+.form-textbox,
+.form-textarea,
+.form-dropdown {
+    max-width: none !important;
+    box-shadow: none;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: inherit;
+    /*    Change the input box height*/
+    padding: .6em;
+    border-radius: 5px;
+}
+
+.formFooter {
+    display: none;
+}
